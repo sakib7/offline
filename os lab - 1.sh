@@ -15,3 +15,9 @@ cp -r
 cp
 mv
 mv -r
+sudo adduser sakib
+cat /etc/passwd
+su sakib
+cat /etc/group
+sudo passwd sakib
+sudo userdel sakib
